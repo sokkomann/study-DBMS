@@ -1,0 +1,52 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-19b1ffe28d7-7190bbebe52b2b2b": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
+					"allowPublicKeyRetrieval": "TRUE"
+				},
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"virtual-models": {
+		"mysql8-19b1ffe28d7-7190bbebe52b2b2b": {
+			"ddl": {
+				":tbl_zoo": {
+					"properties": {
+						"erd.diagram.state": {
+							"serialized": "<diagram version=\"1\" name=\"empty\" time=\"202512151242\"><entities><data-source id=\"mysql8-19b1ffe28d7-7190bbebe52b2b2b\"><entity id=\"1\" name=\"tbl_zoo\" fq-name=\"ddl.tbl_zoo\" order=\"0\" color-bg=\"255,128,64\" x=\"103\" y=\"59\"><path name=\"ddl\"/></entity></data-source></entities><relations/></diagram>"
+						}
+					}
+				}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
